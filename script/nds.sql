@@ -122,13 +122,19 @@ GO
 Create table country_nds(
 	country_id int identity(1,1) primary key,
 	country_code varchar(3),
-	country_name varchar(50)
+	country_name varchar(50),
+	createdDate datetime,
+	updatedDate datetime,
+	source_id int
 )
 GO
 create table region_nds(
 	region_id int identity(1,1) primary key,
 	region_code varchar(9),
-	region_name varchar(50)
+	region_name varchar(50),
+	createdDate datetime,
+	updatedDate datetime,
+	source_id int
 )
 GO
 alter table postcode_nds add constraint FK_postcode_country foreign key (country_id) references country_nds(country_id)
@@ -137,5 +143,4 @@ alter table lsoa_nds add constraint FK_lsoa_postcode foreign key (pcd) reference
 alter table accident_nds add constraint FK_accident_lsoa foreign key (lsoa_of_accident_location) references lsoa_nds(pcd_id)
 alter table vehicle_nds add constraint FK_vehi_acci foreign key (accident_id) references accident_nds(accident_id)
 alter table casualties_nds add constraint FK_casua_acci foreign key (accident_id) references accident_nds(accident_id)
-alter table casualties_nds add constraint FK_casua_vehi foreign key (vehicle_id) references vehicle_nds(vehicle_id)
 alter table casualties_nds add constraint FK_casua_vehi foreign key (vehicle_id) references vehicle_nds(vehicle_id)
