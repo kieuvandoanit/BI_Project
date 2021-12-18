@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
-    <Name>StageToNDS</Name>
-    <LastWriteTime>2021-11-17T16:11:50.9255546Z</LastWriteTime>
+    <Name>NDSToDDS</Name>
+    <LastWriteTime>2021-12-15T06:18:19.4984254Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Package.dtsx</Name>
-      <LastWriteTime>2021-12-16T02:31:20.6155524Z</LastWriteTime>
+      <LastWriteTime>2021-12-17T13:01:39.8337398Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

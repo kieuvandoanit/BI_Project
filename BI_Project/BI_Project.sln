@@ -9,6 +9,8 @@ Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SourceToStage", "SourceToSt
 EndProject
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "StageToNDS", "StageToNDS\StageToNDS.dtproj", "{456B0508-48D1-46CC-8867-838D150B6CFC}"
 EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "NDSToDDS", "NDSToDDS\NDSToDDS.dtproj", "{C5F664E5-3937-4F3D-865F-576C2BB318E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -20,6 +22,8 @@ Global
 		{CE73416A-F412-4A98-A880-88B9E03F5275}.Development|Default.Build.0 = Development
 		{456B0508-48D1-46CC-8867-838D150B6CFC}.Development|Default.ActiveCfg = Development
 		{456B0508-48D1-46CC-8867-838D150B6CFC}.Development|Default.Build.0 = Development
+		{C5F664E5-3937-4F3D-865F-576C2BB318E7}.Development|Default.ActiveCfg = Development
+		{C5F664E5-3937-4F3D-865F-576C2BB318E7}.Development|Default.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
